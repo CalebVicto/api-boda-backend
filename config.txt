@@ -1,0 +1,15 @@
+DB_user = fullstack
+DB_pass = PL24PXCSlTBHxQu8
+DB_URI = mongodb+srv://fullstack:PL24PXCSlTBHxQu8@cluster0.7fmha.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+let format = {
+  cod_uniq: S0001,
+  invitados: [
+    {
+      nombre: 'Caleb',
+      apellidos: 'izquierdo',
+      tipo: 1, // Tipo: 1 => Solo presencial, 2 => Solo virtual, 3 => Los dos
+      estado: 3 // Estado: 1 => Por confirmar, 2 => Presencial, 3 => Virtual, 4 => No asiste
+    }
+  ]
+}
