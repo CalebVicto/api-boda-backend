@@ -12,5 +12,8 @@ api.get('/:cod_uniq', InvController.buscar_cod)
 
 api.put('/admin', InvController.update_doc)
 
+api.get('/', (req, res) => {
+  res.send('<h1>Funciono<h1>')
+})
 
 module.exports = api;
